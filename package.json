@@ -1,7 +1,6 @@
 {
-  "name": "app-template",
+  "name": "@ekidpro/app-template",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -40,11 +39,33 @@
     ]
   },
   "devDependencies": {
-    "@types/react-redux": "^7.1.9"
+    "@types/react-redux": "^7.1.9",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5"
   },
   "main": "template.json",
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "description": "npx create-react-app my-app --template @ekidpro/app-template",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekidpro-vn/app-template.git"
+  },
+  "keywords": [
+    "ekidpro",
+    "reactjs",
+    "cra"
+  ],
+  "author": "lamlv <lamlv@egroup.vn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekidpro-vn/app-template/issues"
+  },
+  "homepage": "https://github.com/ekidpro-vn/app-template#readme"
 }
