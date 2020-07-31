@@ -21,7 +21,8 @@
     },
     "scripts": {
       "serve": "serve -s build",
-      "build-and-serve": "npm run build && npm run serve"
+      "build-and-serve": "npm run build && npm run serve",
+      "postinstall": "chmod +x ./install-dev-dependencies.sh && ./install-dev-dependencies.sh"
     },
     "eslintConfig": {
       "extends": ["react-app", "plugin:jsx-a11y/recommended"],
